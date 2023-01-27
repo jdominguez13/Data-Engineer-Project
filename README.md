@@ -16,3 +16,4 @@ The Notebook is divided in chunks of code that allows the user to preview differ
 ## Challenges
 * Due to the different stats utilized between pitchers and hitters, as well as the career length between different players, I refrained from further formatting the Excel file in order to keep the code shorter
 * I could not find the logos in the MLB Stats API so I didn't include it in the card
+* Whenever there are multiple players with the same name, David Peralta for example, the code runs into an error and stops. I didn't have time to work out a "try" "except" that would allow to select the player from a list when this happened 
